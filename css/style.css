@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: montserrat;
+}
+
+
+/* Navbar, header */
+.nav-container {
+    background-image: linear-gradient(to right, rgb(100, 150, 125), rgb(75, 100, 125));
+    font-size: 1.25rem;
+    color: white;
+    display: flex;
+    justify-content: end;
+    flex-flow: row wrap;
+    padding: .5rem;
+}
+
+.nav-items {
+    color: rgba(255,255,255,.666);
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.logo {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 0 .5rem;
+}
+
+.logo a, .logo p {
+    padding: .5rem;
+}
+
+.logo a img {
+    height: 32px;
+}
+
+.logo:first-child {
+    flex-grow: 1;
+}
+
+.nav-items a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(255,255,255,.666);
+    padding: .5rem;
+    margin: 0 .5rem;
+}
+
+/* pseudo class such as :hover */
+.nav-items a:hover {
+    /* text-decoration: underline; */
+    color: white;
+    font-weight: 600;
+}
+
+/* li :nth-child(2){
+    color: teal;
+} */
+
+
+/* Main */
+.intro {
+    /* background-color: rgba(0, 0, 0, .25); */
+    text-align: center;
+    max-width: 640px;
+    padding: 2rem;
+    margin: auto;
+    font-size: 1.125rem;
+}
+
+.blog {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, .125);
+}
+
+.blog div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 1rem;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 24px;
+    /* border: 1px solid brown; */
+    min-width: 320px;
+    max-width: 400px;
+    padding: 1rem;
+}
+
+.blog div a {
+    background-color: darkslategray;
+    border-radius: 16px;
+    color: white;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.blog div a:hover {
+    font-weight: 600;
+}
+
+.blog h2, .blog img, .blog p, .blog a {
+    padding: .5rem;
+}
+
+
+/* Contact */
+.contact {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .25);
+}
+
+.contact input {
+    padding: .5rem;
+}
+
+.contact textarea {
+    padding: .5rem;
+}
+
+.contact form input, .contact form textarea {
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.newsletter {
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: start;
+    width: 400px;
+}
+
+/* .newsletter h3, .newsletter input {
+    padding: .5rem;
+} */
+
+.contact form button {
+    padding: .75rem;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+}
+
+.contact form button:hover {
+    font-weight: 600;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
