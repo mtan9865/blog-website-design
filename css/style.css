@@ -133,8 +133,9 @@
 }
 
 .blog div a {
-    background-image: linear-gradient(to right, rgba(100, 150, 125, .75), rgba(75, 100, 125, .75));
+    background-image: linear-gradient(to right, rgba(100, 150, 125, 1), rgba(75, 100, 125, 1));
     color: white;
+    text-decoration: none;
     border-radius: 16px;
     padding: 1rem 2rem;
     font-size: 1rem;
