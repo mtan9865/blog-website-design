@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
         <script src="/script.js" defer></script>
         <title>Mert's Blog</title>
     </head>
@@ -16,7 +16,7 @@
         <header>
             <nav class="nav-container">
                 <div class="logo">
-                    <a href="#"><img src="/images/MT-Logo-White.svg"></a>
+                    <a href="#"><img src="/images/MT-Logo-White.svg" alt="Mert Tanatmis Logo"></a>
                     <p>Mert Tanatmis</p>
                 </div>
                 <div class="navbar-toggle">
@@ -39,7 +39,7 @@
                 <p>Welcome to our coding language blog! Here, we dive into the fascinating world of programming languages, exploring their features, use cases, and the ever-evolving landscape of software development. Whether you're a seasoned developer seeking to expand your skill set or a curious beginner looking to embark on a coding journey, our blog offers concise and insightful articles that cater to all levels of expertise. Join us as we unravel the mysteries of programming languages, share practical tips, and foster a vibrant community of learners and enthusiasts. Let's unlock the power of code together!</p>
             </div>
 
-            <article>
+            <div>
                 <section class="blog" id="blog">
                     <div class="firstBlog">
                         <h2>HTML</h2>
@@ -100,18 +100,20 @@
                         <br>
                         
                         <div class="newsletter">
-                            <label for="newsletter">Would you like to subscribe to our weekly newsletter?</label>
+                            <label>Would you like to subscribe to our weekly newsletter?</label>
                             <br>
                             <br>
-                            <input type="radio" name="radio" id="yes"> Yes
+                            <input type="radio" name="newsletter" id="yes" value="yes">
+                            <label for="yes">Yes</label>
                             <br>
                             <br>
-                            <input type="radio" name="radio" id="no"> No
+                            <input type="radio" name="newsletter" id="no" value="no">
+                            <label for="no">No</label>
                         </div>
 
                         <br>
 
-                        <div type="contact-buttons">
+                        <div class="contact-buttons">
                             <!-- <button type="reset">Reset</button> -->
                             <button class="reset" type="reset">
                                 <span class="material-symbols-rounded">
@@ -122,7 +124,7 @@
                         </div>
                     </form>
                 </section>
-            </article>
+            </div>
         </main>
 
         <footer>
