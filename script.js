@@ -1,6 +1,6 @@
-document.querySelector(".navbar-toggle").addEventListener("click", function () {
-  var links = document.querySelectorAll(".navbar-links");
-  for (var i = 0; i < links.length; i++) {
-    links[i].classList.toggle("active");
-  }
+document.querySelector('.navbar-toggle').addEventListener('click', function() {
+  var navItems = document.querySelectorAll('.nav-items');
+  navItems.forEach(function(item) {
+    item.classList.toggle('active');
+  });
 });
